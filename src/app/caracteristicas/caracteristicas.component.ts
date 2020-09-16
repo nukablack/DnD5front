@@ -6,8 +6,13 @@ import { Component } from '@angular/core';
 })
 
 export class CaracteristicasComponent{
-  public nombre = 'Características';
-  public caracteristicas = [
-    'Fuerza', 'Carisma', 'Sabiduría', 'Inteligencia'
-  ];
+  public nombre:string;
+  public caracteristicas:Array<string>;
+
+  constructor(){
+    this.nombre  = 'Características';
+    this.caracteristicas  = [
+      'Fuerza', 'Carisma', 'Sabiduría', 'Inteligencia'
+    ];
+  }
 }
