@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {CaracteristicasComponent} from './caracteristicas/caracteristicas.component';
+import { LoginComponent} from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CaracteristicasComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule
